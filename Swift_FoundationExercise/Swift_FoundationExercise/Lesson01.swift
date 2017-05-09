@@ -2,20 +2,20 @@ import Foundation
 
 
 func lesson01() {
-    execute_1()
-    execute_2()
-    execute_3()
-    execute_4()
-    execute_5()
-    execute_6()
-    execute_7()
-    execute_8()
-    execute_9()
-    execute_10()
-    execute_11()
+    execute01_1()
+    execute01_2()
+    execute01_3()
+    execute01_4()
+    execute01_5()
+    execute01_6()
+    execute01_7()
+    execute01_8()
+    execute01_9()
+    execute01_10()
+    execute01_11()
 }
 
-func execute_1() {
+func execute01_1() {
     print("This is Lesson 01 - 1 ===============================")
     // Example: Here I've declared one String that forms a sentence that makes sense.
     // I've declared a second String that forms a silly sentence when random words are chosen.
@@ -42,7 +42,7 @@ func execute_1() {
     print("\(yourSillySentence)")
 }
 
-func execute_2() {
+func execute01_2() {
     print("This is Lesson 01 - 2 ===============================")
     // Recreate the shoutString by using the didYouKnowString as a stem.
     
@@ -52,7 +52,7 @@ func execute_2() {
     print(didYouKnowString.uppercased())
 }
 
-func execute_3() {
+func execute01_3() {
     print("This is Lesson 01 - 3 ===============================")
     //How many characters are in this string?
     
@@ -60,7 +60,7 @@ func execute_3() {
     print(howManyCharacters.characters.count)
 }
 
-func execute_4() {
+func execute01_4() {
     print("This is Lesson 01 - 4 ===============================")
     //How many times does the letter "g" or "G" appear in the following string? Use a for-in loop to find out!
     
@@ -74,7 +74,7 @@ func execute_4() {
     print(count)
 }
 
-func execute_5() {
+func execute01_5() {
     print("This is Lesson 01 - 5 ===============================")
     // Write a program that tells you whether or not this string contains the substring "tuna".
     
@@ -82,7 +82,7 @@ func execute_5() {
     print(word.contains("tuna"))
 }
 
-func execute_6() {
+func execute01_6() {
     print("This is Lesson 01 - 6 ===============================")
     // Write a program that deletes all occurrences of the word "like" in the following string.
     
@@ -91,7 +91,7 @@ func execute_6() {
     print(noLikes)
 }
 
-func execute_7() {
+func execute01_7() {
     print("This is Lesson 01 - 7 ===============================")
     // Repeat the above string manipulation, but this time using a for-in loop.
     // You can start off with this dictionary and string.
@@ -126,7 +126,7 @@ func execute_7() {
     }
 }
 
-func execute_8() {
+func execute01_8() {
     print("This is Lesson 01 - 8 ===============================")
     // Josie has been saving her pennies and has them all counted up.
     // Write a program that, given a number of pennies, prints out how much money Josie has in dollars and cents.
@@ -148,7 +148,7 @@ func execute_8() {
     print(formatter.string(from: price) ?? "Unknown") // "123,44 €"
 }
 
-func execute_9() {
+func execute01_9() {
     print("This is Exercise 01 - 9 ===============================")
     // Below is the code to find all the numbers present in an array,
     // convert them to Ints, and calculate their sum. Have a look at the entities declared below:
@@ -168,7 +168,7 @@ func execute_9() {
     
 }
 
-func execute_10() {
+func execute01_10() {
     print("This is Lesson 01 - 10 ===============================")
     // For each of the following pairs, choose whether to declare a constant or a variable.
     // Example: Two hikers are climbing up to the summit of a mountain. Along the way, they stop a few times to check their current elevation.
@@ -192,7 +192,7 @@ func execute_10() {
     var balance: NSNumber
 }
 
-func execute_11() {
+func execute01_11() {
     print("This is Lesson 01 - 11 ===============================")
     // Below is the code to reverse a string.
     // Have a look at the entities declared: stringToReverse and reversedString.
